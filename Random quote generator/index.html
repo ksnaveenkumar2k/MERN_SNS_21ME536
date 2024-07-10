@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>RandomQuote</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="card">
+        <div class="card-body h">
+          <h2 class="card-title text-center text-danger h1 fw-bold">
+            Random Quote Generator
+          </h2>
+          <p id="quote" class="card-text my-5"></p>
+        </div>
+      </div>
+      <div class="card-footer d-inline-block">
+        <button class="btn btn-info " onclick="generateRanQuote()">
+          Get Another Quote
+        </button>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
